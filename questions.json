@@ -1,0 +1,13 @@
+{
+  "Транспорт" : {
+    "100" : {"question":"plane", "answer":"самолет", "asked":false},
+    "200" : {"question":"train", "answer":"поезд", "asked":false},
+    "300" : {"question":"bus", "answer":"автобус", "asked":false}
+  },
+
+  "Еда" : {
+    "100" : {"question":"bread", "answer":"хлеб", "asked":false},
+    "200" : {"question":"milk", "answer":"молоко", "asked":false},
+    "300" : {"question":"beef", "answer":"говядина", "asked":false}
+  }
+}
