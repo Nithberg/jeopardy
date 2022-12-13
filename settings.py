@@ -28,9 +28,4 @@ def get_question(question):
     print(f'Слово {question} в переводе означает ...')
 
 
-data_questions = get_questions_from_json()
-show_game_menu(data_questions)
-user_input = parse_input(input('Введите категорию и цену через пробел: '))
-category, price = user_input["category"], user_input["price"]
-question = data_questions[category][price]
-get_question(question["question"])
+
